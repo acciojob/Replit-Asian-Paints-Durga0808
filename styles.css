@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-#grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 10px;

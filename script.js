@@ -20,7 +20,7 @@ document.getElementById('change_button').addEventListener('click', function() {
     }
 });
 
-document.getElementById('reset').addEventListener('click', function() {
+document.getElementById('reset_button').addEventListener('click', function() {
     // Reset all grid item backgrounds to transparent
     const gridItems = document.getElementsByClassName('grid-item');
     for (let item of gridItems) {
